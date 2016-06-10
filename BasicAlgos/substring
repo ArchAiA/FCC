@@ -1,0 +1,61 @@
+Solution
+function confirmEnding(str, target) {
+
+  total = str;
+  target = target;
+
+  num = target.length;
+  back = 0 - num;
+
+  if(total.substr(back) === target) {
+    return true;
+  } else {
+    return false;
+
+  }
+
+
+
+
+}
+
+
+confirmEnding("Bastian", "n");
+
+
+
+
+
+
+
+
+
+
+
+Attempt #1
+function confirmEnding(str, target) {
+  arr = [];
+  arr = str.split(' ');
+  num = arr.length - 1;
+  targetLength = target.length;
+
+ matcher = str.substr(str.length - targetLength, targetLength);
+
+
+  arr2 = arr;
+
+
+  if(arr2[num].substr(0 - matcher.length) == matcher) {
+    return true;
+  } else {
+    return false;
+  }
+
+
+
+
+  // "Never give up and good luck will find you."
+  // -- Falcor
+
+}
+confirmEnding("Bastian", "n");

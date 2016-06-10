@@ -1,0 +1,20 @@
+
+
+body{
+    background: url('http://static.pexels.com/photos/1852/dawn-landscape-mountains-nature.jpg') no-repeat center center fixed;
+		background-size: 100% auto;
+/*     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 12%;     */
+}
+
+
+.vertical-center {
+  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}

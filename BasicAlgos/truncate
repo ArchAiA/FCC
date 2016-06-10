@@ -1,0 +1,32 @@
+
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+
+
+
+
+
+  if(str.length === num) {
+      temp2 = str;
+    } else if(str.length > num) {
+
+    if(num <= 3) {
+      temp1 = str.slice(0, num);
+      temp2 = temp1.concat('...');
+    }
+
+    else {
+      temp1 = str.slice(0, num-3);
+      temp2 = temp1.concat('...');
+
+    }
+
+  }
+
+  return temp2;
+
+
+
+
+}
+truncateString("A-tisket a-tasket A green and yellow basket", 11);

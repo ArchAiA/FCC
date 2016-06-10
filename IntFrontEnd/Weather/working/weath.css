@@ -1,0 +1,11 @@
+body{
+    background: url('http://static.pexels.com/photos/1852/dawn-landscape-mountains-nature.jpg') no-repeat center center fixed;
+		background-size: 100% auto;
+/*     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 12%;     */
+}
+
+

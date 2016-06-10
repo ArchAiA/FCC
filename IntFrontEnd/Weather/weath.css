@@ -1,0 +1,17 @@
+
+
+
+
+.vertical-center {
+  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.weatherBox {
+  background-color: #FFFFFF;
+  opacity: 0.75;
+  padding: 0 10% 0 10%
+}
