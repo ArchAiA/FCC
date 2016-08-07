@@ -1,0 +1,6 @@
+.centered {
+	float: none;
+	margin: 0 auto;
+  background-color: orange;
+  text-align: center;
+}
