@@ -2,6 +2,7 @@ var fs = require('fs');
 
 
 module.exports = function(dirName, extName, callback) {
+  
   var dirList = [];
 
   fs.readdir(dirName, function(err, fileNameList) {
